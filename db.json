@@ -285,6 +285,12 @@
       "name": "avraam",
       "email": "avraam@gmail.com",
       "password": "avraam"
+    },
+    {
+      "id": "9c21",
+      "name": "avraam",
+      "email": "avraam01@gmail.com",
+      "password": "avraam"
     }
   ]
 }
