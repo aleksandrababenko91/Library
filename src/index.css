@@ -2,9 +2,9 @@
 body {
   background-image: url('/images/bg.jpeg');
 
-  background-size: cover; /* Ensures the image covers the entire background */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-attachment: fixed; /* Makes the background image fixed when scrolling */
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
   &.lock {
     overflow: hidden;
     touch-action: none;

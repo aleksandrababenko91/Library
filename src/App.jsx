@@ -42,20 +42,20 @@ function App() {
   }, [books]);
 
   const addBook = (id) => {
-    const filteredBooksById = books.filter(book => book.id === id)      //iterate to find the boook with  current Id
+    const filteredBooksById = books.filter(book => book.id === id) 
     const bookCurrentId = filteredBooksById[0]
-    console.log("Current books", bookCurrentId); //return object with current book
+    console.log("Current books", bookCurrentId);
       if (bookCurrentId) {
-        const availableCopies = bookCurrentId.copies.filter(copy => copy.borrower === null); //iterate for borrower === null 
-        console.log("Avalaible copies:", availableCopies);  //return array of object with available copy (borrower = null)
+        const availableCopies = bookCurrentId.copies.filter(copy => copy.borrower === null); 
+        console.log("Avalaible copies:", availableCopies);  
        const borrowedDate = new Date();
        console.log(borrowedDate);
        const currentDate = new Date();
        const dueDate = new Date(borrowedDate.setDate(borrowedDate.getDate() + 25));
        console.log(dueDate);
        const updatedCopy = {...availableCopies[0], borrower: currentUser.id, borrowedDate: currentDate.toDateString(), dueDate: dueDate.toDateString()} 
-        console.log(updatedCopy);  //update 1 copYYYY!!!! and add borrower
-        const updatedCopies = bookCurrentId.copies.map(copy => {  //iterate and compare current book and update an array of copiESSSSS!!!
+        console.log(updatedCopy); 
+        const updatedCopies = bookCurrentId.copies.map(copy => {  
           if(copy.id === updatedCopy.id) {
             return updatedCopy
           } else {
@@ -81,23 +81,19 @@ function App() {
   }
  
   const returnBook = (id) => {
-    const filteredBooksById = books.filter(book => book.id === id)      //iterate to find the boook with  current Id
+    const filteredBooksById = books.filter(book => book.id === id)   
     const bookCurrentId = filteredBooksById[0]
-    //console.log(bookCurrentId); //return object with current book
       if (bookCurrentId) {
-        const borrowedCopies = bookCurrentId.copies.filter(copy => copy.borrower === currentUser.id); //iterate for borrower === null 
-       // console.log(borrowedCopies);  //return array of object with available copy (borrower = null)
+        const borrowedCopies = bookCurrentId.copies.filter(copy => copy.borrower === currentUser.id); 
         const updatedReturnCopy = {...borrowedCopies[0], borrower: null} 
-        //console.log(updatedReturnCopy);  //update 1 copYYYY!!!! and add borrower
-        const updatedReturnCopies = bookCurrentId.copies.map(copy => {  //iterate and compare current book and update an array of copiESSSSS!!!
+        const updatedReturnCopies = bookCurrentId.copies.map(copy => {  
           if(copy.id === updatedReturnCopy.id) {
             return updatedReturnCopy
           } else {
             return copy;
           }
         })
-        //console.log(updatedReturnCopies);
-      const updatedReturnBook = {...bookCurrentId, copies: updatedReturnCopies} //update an array of Current BOOK
+      const updatedReturnBook = {...bookCurrentId, copies: updatedReturnCopies} 
       console.log(updatedReturnBook);
        BookService
         .update(id, updatedReturnBook)
