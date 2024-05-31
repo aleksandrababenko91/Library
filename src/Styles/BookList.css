@@ -1,0 +1,64 @@
+.backgroundImage {
+  padding: 20px;
+  background-image: url(src/images/pexels.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.searchBook{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+
+}
+
+.booksContainer {
+  padding-top: 40px;
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 30px;
+
+}
+
+.bookCardStyle {
+  background-color: rgba(217, 217, 217, 0.76);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 30px;
+  margin-right: 10px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.bookImage {
+  width: fit-content;
+
+  height: 30vh;
+}
+
+.bookName {
+  font-style: italic;
+  display: grid;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+}
+
+.buttonAdd {
+  display: grid;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+}

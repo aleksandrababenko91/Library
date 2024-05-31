@@ -1,0 +1,23 @@
+.slides {
+  display:block;
+  width: 60vw;
+  height: 70vh;
+  padding: 20px;
+  margin: auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.svg {
+  height: 5vh;
+  background-color: aliceblue;
+}
+
+.title {
+  display: grid;
+  justify-content: center;
+  padding-left: 300px;
+  padding-right: 300px;;
+
+}

@@ -1,0 +1,278 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Finnish Way",
+      "author": "Rebecca Yarros",
+      "ISBN": "1234567890",
+      "url": "/images/fourth-wing.webp",
+      "copies": [
+        {
+          "id": 1,
+          "borrower": null,
+          "borrowedDate": "2023-12-19T12:09:34.772Z",
+          "dueDate": "2024-02-02T12:10:14.624Z"
+        },
+        {
+          "id": 2,
+          "borrower": null,
+          "borrowedDate": "2023-12-20T07:39:55.869Z",
+          "dueDate": "2024-01-14T07:39:55.869Z"
+        },
+        {
+          "id": 3,
+          "borrower": null,
+          "borrowedDate": "2023-12-20T07:39:56.803Z",
+          "dueDate": "2024-01-14T07:39:56.803Z"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Valentino",
+      "author": "Karen Homer",
+      "ISBN": "1234567890",
+      "url": "/images/valentino.webp",
+      "copies": [
+        {
+          "id": 1,
+          "borrower": 9,
+          "borrowedDate": "2023-12-19T12:09:35.560Z",
+          "dueDate": "2024-02-02T12:10:22.055Z"
+        },
+        {
+          "id": 2,
+          "borrower": 5,
+          "borrowedDate": "2024-01-22T06:39:05.604Z",
+          "dueDate": "2024-02-16T06:39:05.604Z"
+        },
+        {
+          "id": 3,
+          "borrower": "2",
+          "borrowedDate": "Thu Feb 29 2024",
+          "dueDate": "Mon Mar 25 2024"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Atomac Habbits",
+      "author": "James Clear",
+      "ISBN": "1234567890",
+      "url": "/images/habbits.webp",
+      "copies": [
+        {
+          "id": 1,
+          "borrower": 8,
+          "borrowedDate": "2023-12-20T07:39:51.172Z",
+          "dueDate": "2024-01-14T07:39:51.172Z"
+        },
+        {
+          "id": 2,
+          "borrower": 5,
+          "borrowedDate": "2024-01-22T06:39:06.190Z",
+          "dueDate": "2024-02-16T06:39:06.190Z"
+        },
+        {
+          "id": 3,
+          "borrower": "2",
+          "borrowedDate": "Thu Feb 29 2024",
+          "dueDate": "Mon Mar 25 2024"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Common Sense",
+      "author": "John Boggle",
+      "ISBN": "1234567890",
+      "url": "/images/investing.webp",
+      "copies": [
+        {
+          "id": 1,
+          "borrower": null,
+          "borrowedDate": "2023-12-20T07:04:25.215Z",
+          "dueDate": "2024-02-03T07:39:21.602Z"
+        },
+        {
+          "id": 2,
+          "borrower": null,
+          "borrowedDate": "Thu May 30 2024",
+          "dueDate": "Mon Jun 24 2024"
+        },
+        {
+          "id": 3,
+          "borrower": null,
+          "borrowedDate": 2024,
+          "dueDate": 22
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Working Backwords",
+      "author": "Colin Bryar",
+      "ISBN": "1234567890",
+      "url": "/images/working-backwords.webp",
+      "copies": [
+        {
+          "id": 1,
+          "borrower": null,
+          "borrowedDate": "Thu May 30 2024",
+          "dueDate": "Mon Jun 24 2024"
+        },
+        {
+          "id": 2,
+          "borrower": null,
+          "borrowedDate": null,
+          "dueDate": null
+        },
+        {
+          "id": 3,
+          "borrower": null,
+          "borrowedDate": null,
+          "dueDate": null
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "NLP",
+      "author": "Thomas D.",
+      "ISBN": "6666666",
+      "url": "/images/nlp.webp",
+      "copies": [
+        {
+          "id": 1,
+          "borrower": null,
+          "borrowedDate": "Tue Feb 27 2024",
+          "dueDate": "Fri Apr 12 2024"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "The Saddness Book",
+      "author": "Unknown Author",
+      "ISBN": "1234567890",
+      "url": "/images/sadness-book.webp",
+      "copies": [
+        {
+          "id": "1",
+          "borrower": "5",
+          "borrowedDate": "Thu May 30 2024",
+          "dueDate": "Sun Jul 14 2024"
+        },
+        {
+          "id": "2",
+          "borrower": null,
+          "borrowedDate": 1,
+          "dueDate": 22
+        },
+        {
+          "id": "3",
+          "borrower": null,
+          "borrowedDate": null,
+          "dueDate": null
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Reed people like book",
+      "author": "Patrick King.",
+      "ISBN": "1234567890",
+      "url": "/images/read-people.jpg",
+      "copies": [
+        {
+          "id": "1",
+          "borrower": null,
+          "borrowedDate": "Thu May 30 2024",
+          "dueDate": "Sun Jul 14 2024"
+        },
+        {
+          "id": "2",
+          "borrower": null,
+          "borrowedDate": null,
+          "dueDate": null
+        },
+        {
+          "id": "3",
+          "borrower": null,
+          "borrowedDate": null
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Heartstopper",
+      "author": "Alice Osemman.",
+      "ISBN": "1234567890",
+      "url": "/images/heartstopper.jpg",
+      "copies": [
+        {
+          "id": "1",
+          "borrower": null,
+          "borrowedDate": "Thu May 30 2024",
+          "dueDate": "Sun Jul 14 2024"
+        },
+        {
+          "id": "2",
+          "borrower": null,
+          "borrowedDate": "2024-02-25T15:47:45.407Z",
+          "dueDate": "2024-03-21T15:47:45.407Z"
+        },
+        {
+          "id": "3",
+          "borrower": null,
+          "borrowedDate": "2024-02-25T15:47:45.993Z",
+          "dueDate": "2024-03-21T15:47:45.993Z"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Jarkko",
+      "password": 12345,
+      "email": "jarkko@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "Aleksandra",
+      "password": 12346,
+      "email": "aleks@gmail.com"
+    },
+    {
+      "name": "Petri",
+      "email": "petri@gmaicl.ocm",
+      "password": "alex01",
+      "id": "3"
+    },
+    {
+      "name": "Nicolas",
+      "email": "nicolas@gmail.com",
+      "password": "Nic",
+      "id": "4"
+    },
+    {
+      "name": "Saara",
+      "email": "saarasairanen@gmail.com",
+      "password": "saara",
+      "id": "5"
+    },
+    {
+      "name": "alex333",
+      "email": "alex333@gmail.com",
+      "password": "alex333",
+      "id": "6"
+    },
+    {
+      "name": "saara",
+      "email": "saarasairanen@gmail.com",
+      "password": "saara",
+      "id": "7"
+    }
+  ]
+}
