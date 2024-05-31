@@ -40,18 +40,20 @@ BOOTSTRAP:
 
 # Main Page
 
-<img src="./public/images/4.png">
+<img src="./public/images/1.png">
 
 # Register/LOG-IN
 
-<img src="./public/images/3.png">
+<img src="./public/images/4.png">
+<img src="./public/images/6.png">
+<img src="./public/images/5.png">
 
 
 # BookList
 
-<img src="./public/images/2.png">
+<img src="./public/images/3.png">
 
 # Profile
 
-<img src="./public/images/1.png">
+<img src="./public/images/2.png">
 

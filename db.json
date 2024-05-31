@@ -9,9 +9,9 @@
       "copies": [
         {
           "id": 1,
-          "borrower": null,
-          "borrowedDate": "2023-12-19T12:09:34.772Z",
-          "dueDate": "2024-02-02T12:10:14.624Z"
+          "borrower": "e507",
+          "borrowedDate": "Fri May 31 2024",
+          "dueDate": "Tue Jun 25 2024"
         },
         {
           "id": 2,
@@ -96,9 +96,9 @@
         },
         {
           "id": 2,
-          "borrower": null,
-          "borrowedDate": "Thu May 30 2024",
-          "dueDate": "Mon Jun 24 2024"
+          "borrower": "e507",
+          "borrowedDate": "Fri May 31 2024",
+          "dueDate": "Tue Jun 25 2024"
         },
         {
           "id": 3,
@@ -123,9 +123,9 @@
         },
         {
           "id": 2,
-          "borrower": null,
-          "borrowedDate": null,
-          "dueDate": null
+          "borrower": "e507",
+          "borrowedDate": "Fri May 31 2024",
+          "dueDate": "Tue Jun 25 2024"
         },
         {
           "id": 3,
@@ -279,6 +279,12 @@
       "name": "saara",
       "email": "saaraAvraam@gmail.com",
       "password": "saara"
+    },
+    {
+      "id": "e507",
+      "name": "avraam",
+      "email": "avraam@gmail.com",
+      "password": "avraam"
     }
   ]
 }
