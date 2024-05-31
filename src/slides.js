@@ -4,7 +4,7 @@ export const slides = [
     title: "Internet Access: We offer free internet access and computer facilities, bridging the digital divide for those who may not have access at home.",
     subtitle: "Book on Table",
     interval: 5000,
-    svg: "/images/wifi.svg"
+    svg: "/images/wifi.svg",
   },
   {
     image: "/images/image2.jpg",

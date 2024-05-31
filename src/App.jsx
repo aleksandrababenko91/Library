@@ -63,7 +63,7 @@ function App() {
           }
         })
         console.log(updatedCopies);
-      const updatedBook = {...bookCurrentId, copies: updatedCopies} //update an array of Current BOOK
+      const updatedBook = {...bookCurrentId, copies: updatedCopies} 
       console.log("Updated books:", updatedBook);
        BookService
         .update(id, updatedBook)
