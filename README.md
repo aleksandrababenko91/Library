@@ -38,20 +38,20 @@ BOOTSTRAP:
 - Carousel;
 
 
-# Front Page. View from the computer
+# Main Page
 
-<img src="./public/images/1.png">
+<img src="./public/images/4.png">
 
 # Register/LOG-IN
 
-<img src="/images/1.png">
-<img src="/images/2.png">
+<img src="./public/images/3.png">
+
 
 # BookList
 
-<img src="/images/3.png">
+<img src="./public/images/2.png">
 
 # Profile
 
-<img src="/images/4.png">
+<img src="./public/images/1.png">
 
