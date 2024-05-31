@@ -90,9 +90,9 @@
       "copies": [
         {
           "id": 1,
-          "borrower": null,
-          "borrowedDate": "2023-12-20T07:04:25.215Z",
-          "dueDate": "2024-02-03T07:39:21.602Z"
+          "borrower": "5aeb",
+          "borrowedDate": "Fri May 31 2024",
+          "dueDate": "Tue Jun 25 2024"
         },
         {
           "id": 2,
@@ -117,9 +117,9 @@
       "copies": [
         {
           "id": 1,
-          "borrower": null,
-          "borrowedDate": "Thu May 30 2024",
-          "dueDate": "Mon Jun 24 2024"
+          "borrower": "5aeb",
+          "borrowedDate": "Fri May 31 2024",
+          "dueDate": "Tue Jun 25 2024"
         },
         {
           "id": 2,
@@ -273,6 +273,12 @@
       "email": "saarasairanen@gmail.com",
       "password": "saara",
       "id": "7"
+    },
+    {
+      "id": "5aeb",
+      "name": "saara",
+      "email": "saaraAvraam@gmail.com",
+      "password": "saara"
     }
   ]
 }

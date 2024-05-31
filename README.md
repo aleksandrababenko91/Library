@@ -40,18 +40,18 @@ BOOTSTRAP:
 
 # Front Page. View from the computer
 
-<img src="src/images/Screenshot 2024-02-29 at 14.21.03.png">
+<img src="src/1.png">
 
 # Register/LOG-IN
 
-<img src="src/images/Screenshot 2024-02-29 at 14.21.52.png">
-<img src="src/images/Screenshot 2024-02-29 at 14.21.29.png">
+<img src="images/1.png">
+<img src="images/2.png">
 
 # BookList
 
-<img src="src/images/Screenshot 2024-02-29 at 14.21.13.png">
+<img src="images/3.png">
 
 # Profile
 
-<img src="src/images/Screenshot 2024-02-29 at 14.29.50.png">
+<img src="images/4.png">
 
