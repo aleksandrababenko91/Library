@@ -40,18 +40,18 @@ BOOTSTRAP:
 
 # Front Page. View from the computer
 
-<img src="src/1.png">
+<img src="/images1.png">
 
 # Register/LOG-IN
 
-<img src="images/1.png">
-<img src="images/2.png">
+<img src="/images/1.png">
+<img src="/images/2.png">
 
 # BookList
 
-<img src="images/3.png">
+<img src="/images/3.png">
 
 # Profile
 
-<img src="images/4.png">
+<img src="/images/4.png">
 
