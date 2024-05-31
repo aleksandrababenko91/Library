@@ -40,7 +40,7 @@ BOOTSTRAP:
 
 # Front Page. View from the computer
 
-<img src="/images1.png">
+<img src="../images/1.png">
 
 # Register/LOG-IN
 
