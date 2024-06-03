@@ -2,7 +2,8 @@ import Carousel from 'react-bootstrap/Carousel';
 import { useState } from 'react';
 import '../Styles/Slides.css';
 import PropTypes from 'prop-types';
-import { v4 as uuidv4 } from 'uuid';
+import { v4 as uuidv4 } from 'uuid'; 
+
 
 function Slider({slides}) {
   const [index, setIndex] = useState(0);

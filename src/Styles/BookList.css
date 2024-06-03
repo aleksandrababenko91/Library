@@ -1,6 +1,5 @@
 .backgroundImage {
   padding: 20px;
-  background-image: url(src/images/pexels.jpg);
   background-position: center;
   background-size: cover;
   min-height: 500px;

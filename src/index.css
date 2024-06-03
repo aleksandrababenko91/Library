@@ -1,7 +1,5 @@
 
 body {
-  background-image: url('/images/bg.jpeg');
-
   background-size: cover; 
   background-repeat: no-repeat; 
   background-attachment: fixed; 
@@ -36,7 +34,6 @@ body {
 
 .bg {
   padding-top: 10%;
-  background-image: url('src/images/pexels.jpg');
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
