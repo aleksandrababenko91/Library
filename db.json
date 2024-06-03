@@ -8,19 +8,19 @@
       "url": "/images/fourth-wing.webp",
       "copies": [
         {
-          "id": 1,
-          "borrower": "e507",
-          "borrowedDate": "Fri May 31 2024",
-          "dueDate": "Tue Jun 25 2024"
+          "id": "1",
+          "borrower": null,
+          "borrowedDate": "Mon Jun 03 2024",
+          "dueDate": "Thu Jul 18 2024"
         },
         {
-          "id": 2,
+          "id": "2",
           "borrower": null,
           "borrowedDate": "2023-12-20T07:39:55.869Z",
           "dueDate": "2024-01-14T07:39:55.869Z"
         },
         {
-          "id": 3,
+          "id": "3",
           "borrower": null,
           "borrowedDate": "2023-12-20T07:39:56.803Z",
           "dueDate": "2024-01-14T07:39:56.803Z"
@@ -35,19 +35,19 @@
       "url": "/images/valentino.webp",
       "copies": [
         {
-          "id": 1,
-          "borrower": 9,
-          "borrowedDate": "2023-12-19T12:09:35.560Z",
-          "dueDate": "2024-02-02T12:10:22.055Z"
+          "id": "1",
+          "borrower": "971a",
+          "borrowedDate": "Mon Jun 03 2024",
+          "dueDate": "Fri Jun 28 2024"
         },
         {
-          "id": 2,
-          "borrower": 5,
+          "id": "2",
+          "borrower": null,
           "borrowedDate": "2024-01-22T06:39:05.604Z",
           "dueDate": "2024-02-16T06:39:05.604Z"
         },
         {
-          "id": 3,
+          "id": "3",
           "borrower": "2",
           "borrowedDate": "Thu Feb 29 2024",
           "dueDate": "Mon Mar 25 2024"
@@ -62,19 +62,19 @@
       "url": "/images/habbits.webp",
       "copies": [
         {
-          "id": 1,
-          "borrower": 8,
+          "id": "1",
+          "borrower": null,
           "borrowedDate": "2023-12-20T07:39:51.172Z",
           "dueDate": "2024-01-14T07:39:51.172Z"
         },
         {
-          "id": 2,
-          "borrower": 5,
+          "id": "2",
+          "borrower": null,
           "borrowedDate": "2024-01-22T06:39:06.190Z",
           "dueDate": "2024-02-16T06:39:06.190Z"
         },
         {
-          "id": 3,
+          "id": "3",
           "borrower": "2",
           "borrowedDate": "Thu Feb 29 2024",
           "dueDate": "Mon Mar 25 2024"
@@ -89,22 +89,22 @@
       "url": "/images/investing.webp",
       "copies": [
         {
-          "id": 1,
-          "borrower": "5aeb",
-          "borrowedDate": "Fri May 31 2024",
-          "dueDate": "Tue Jun 25 2024"
+          "id": "1",
+          "borrower": "971a",
+          "borrowedDate": "Mon Jun 03 2024",
+          "dueDate": "Fri Jun 28 2024"
         },
         {
-          "id": 2,
-          "borrower": "e507",
-          "borrowedDate": "Fri May 31 2024",
-          "dueDate": "Tue Jun 25 2024"
-        },
-        {
-          "id": 3,
+          "id": "2",
           "borrower": null,
-          "borrowedDate": 2024,
-          "dueDate": 22
+          "borrowedDate": "Fri May 31 2024",
+          "dueDate": "Tue Jun 25 2024"
+        },
+        {
+          "id": "3",
+          "borrower": null,
+          "borrowedDate": null,
+          "dueDate": null
         }
       ]
     },
@@ -116,19 +116,19 @@
       "url": "/images/working-backwords.webp",
       "copies": [
         {
-          "id": 1,
-          "borrower": "5aeb",
+          "id": "1",
+          "borrower": "971a",
+          "borrowedDate": "Mon Jun 03 2024",
+          "dueDate": "Fri Jun 28 2024"
+        },
+        {
+          "id": "2",
+          "borrower": null,
           "borrowedDate": "Fri May 31 2024",
           "dueDate": "Tue Jun 25 2024"
         },
         {
-          "id": 2,
-          "borrower": "e507",
-          "borrowedDate": "Fri May 31 2024",
-          "dueDate": "Tue Jun 25 2024"
-        },
-        {
-          "id": 3,
+          "id": "3",
           "borrower": null,
           "borrowedDate": null,
           "dueDate": null
@@ -143,7 +143,7 @@
       "url": "/images/nlp.webp",
       "copies": [
         {
-          "id": 1,
+          "id": "1",
           "borrower": null,
           "borrowedDate": "Tue Feb 27 2024",
           "dueDate": "Fri Apr 12 2024"
@@ -166,8 +166,8 @@
         {
           "id": "2",
           "borrower": null,
-          "borrowedDate": 1,
-          "dueDate": 22
+          "borrowedDate": null,
+          "dueDate": null
         },
         {
           "id": "3",
@@ -291,6 +291,18 @@
       "name": "avraam",
       "email": "avraam01@gmail.com",
       "password": "avraam"
+    },
+    {
+      "id": "dc1f",
+      "name": "ddd",
+      "email": "ddd@gmail.com",
+      "password": "ddddd"
+    },
+    {
+      "id": "971a",
+      "name": "iii",
+      "email": "iii@gmail.com",
+      "password": "iiiii"
     }
   ]
 }

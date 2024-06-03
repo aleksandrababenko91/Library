@@ -72,8 +72,5 @@ NavBar.propTypes = {
   handleLogOut: PropTypes.func.isRequired
 };
 
-NavBar.defaultProps = {
-  currentUser: null
-};
 
 export default NavBar;

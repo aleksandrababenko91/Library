@@ -117,8 +117,6 @@ MyProfile.propTypes = {
   setBooks: PropTypes.func.isRequired,
 };
 
-MyProfile.defaultProps = {
-  currentUser: null,
-};
+
 
 export default MyProfile;
