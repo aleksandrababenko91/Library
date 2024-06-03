@@ -3,6 +3,8 @@ body {
   background-size: cover; 
   background-repeat: no-repeat; 
   background-attachment: fixed; 
+  background-image: url('/images/bg.jpeg');
+
   &.lock {
     overflow: hidden;
     touch-action: none;
